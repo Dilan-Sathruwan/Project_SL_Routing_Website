@@ -1,0 +1,143 @@
+.main_Search_box {
+    margin: 50px;
+    padding: 10px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: #836fff;
+
+    
+}
+
+/* Styles for the custom select */
+.custom-select {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.select-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    background-color: #f0f3ff;
+}
+
+.select-box:hover {
+    border-color: #aaa;
+}
+
+.select-box .selected-item {
+    flex-grow: 1;
+}
+
+/* Styles for the dropdown */
+.dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+
+.dropdown-item {
+    background-color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f4f4f4;
+}
+
+/* Styles for the search input */
+.search-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    background-color: rgb(158, 157, 235);
+}
+
+
+/* stop bus location  */
+
+
+.select-box .selected-item1 {
+    flex-grow: 1;
+}
+
+.dropdown1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+}
+
+.search-box1 {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    box-sizing: border-box;
+    background-color: rgb(158, 157, 235);
+
+}
+
+.dropdown-item1 {
+    background-color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item1:hover {
+    background-color: #f4f4f4;
+}
+
+
+/* Style for time selection */
+#travelDate {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+/* Style for search btn */
+.SearchBtn {
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ff004d;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #211951;
+    color: white;
+}

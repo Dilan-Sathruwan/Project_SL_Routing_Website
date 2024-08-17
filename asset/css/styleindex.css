@@ -1,0 +1,163 @@
+/* color font and variable */
+:root {
+  --primary: rgb(180, 3, 3);
+  --font-base: "Poppins, sans-serif";
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: 16;
+  line-height: 1.6;
+}
+
+.h1 .h2 .h3 .h4 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:hover {
+  color: red;
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*--------------------------------------------------
+   button css setup 
+  ----------------------------------------------------*/
+
+
+/*--------------------------------------------------
+  animation css setup 
+  ----------------------------------------------------*/
+.mb-5 {
+  color: white;
+  font-size: 20px;
+}
+
+.bus {
+  /* Some layout code… */
+  animation: xAxis 8s infinite ease-in;
+}
+
+@keyframes xAxis {
+  100% {
+    animation-timing-function: ease-in;
+    transform: translateX(100vw);
+  }
+}
+
+
+
+
+
+/* ---------------------------------------------------
+  navbar section start 
+  ------------------------------------------------------*/
+.navbar {
+  font-family: var(--font-base);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#Hero {
+  /* background: url(../Images/background/Bg.jpg); */
+  background-position: top;
+  margin-top: -50px;
+  background: rgb(0, 9, 33);
+  background: linear-gradient(180deg, rgba(0, 9, 33, 1) 0%, rgba(0, 208, 166, 0.9037990196078431) 49%, rgba(0, 30, 36, 1) 100%);
+}
+
+/* navbar section stop */
+
+
+/* Background image slide show start  *bootstrap */
+.herotext {
+  font-size: 90px;
+  font-weight: 600;
+  color: aliceblue;
+
+}
+
+.herotext2 {
+  color: antiquewhite;
+}
+
+/* Background image slide show start  *bootstrap */
+
+
+/* ---------------------------------------------------
+  About us section start 
+  ------------------------------------------------------*/
+.Section-hed {
+  font-weight: 700;
+  font-size: 55px;
+  font-family: var(--font-base);
+}
+
+.Section-par {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: var(--font-base);
+}
+
+/* ---------------------------------------------------
+  our services section start 
+  ------------------------------------------------------*/
+
+
+
+
+/* ---------------------------------------------------
+  map section start 
+  ------------------------------------------------------*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_iframe {
+  height: 400px !important;
+}
+
+
+
+
+
+/* ---------------------------------------------------
+  footer section start 
+  ------------------------------------------------------*/
+.page-footer {
+  background-color: rgb(7, 6, 6) !important;
+
+}
+
+.Footer_Co {
+  background: rgb(0, 9, 33);
+  background: linear-gradient(180deg, rgba(0, 9, 33, 1) 0%, rgba(0, 208, 166, 0.9037990196078431) 49%, rgba(0, 30, 36, 1) 100%);
+}
